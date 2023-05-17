@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		861E03352A1397DE00B36836 /* KAYAKAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03342A1397DE00B36836 /* KAYAKAppApp.swift */; };
+		861E03372A1397DE00B36836 /* WelcomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03362A1397DE00B36836 /* WelcomPage.swift */; };
+		861E03392A1397E000B36836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861E03382A1397E000B36836 /* Assets.xcassets */; };
+		861E033C2A1397E000B36836 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861E033B2A1397E000B36836 /* Preview Assets.xcassets */; };
+		861E03432A13A03300B36836 /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03422A13A03300B36836 /* SignInPage.swift */; };
+		861E03452A13B68900B36836 /* EmailAddres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03442A13B68900B36836 /* EmailAddres.swift */; };
+		861E03472A13B6BA00B36836 /* CreateAcount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03462A13B6BA00B36836 /* CreateAcount.swift */; };
+		861E03492A13B6EC00B36836 /* EnabalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03482A13B6EC00B36836 /* EnabalNotification.swift */; };
+		861E034B2A13B71600B36836 /* ChosseRagion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E034A2A13B71600B36836 /* ChosseRagion.swift */; };
+		861E034D2A13B73100B36836 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E034C2A13B73100B36836 /* HomePage.swift */; };
+		861E034F2A13B76E00B36836 /* Terms&Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E034E2A13B76E00B36836 /* Terms&Condition.swift */; };
+		861E03512A13B7B200B36836 /* PrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03502A13B7B200B36836 /* PrivacyPolicy.swift */; };
+		861E03532A13BA2000B36836 /* NotificationFromHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03522A13BA2000B36836 /* NotificationFromHome.swift */; };
+		861E03552A13BA4700B36836 /* Nofitications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03542A13BA4700B36836 /* Nofitications.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		861E03312A1397DE00B36836 /* KAYAKApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAYAKApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		861E03342A1397DE00B36836 /* KAYAKAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAYAKAppApp.swift; sourceTree = "<group>"; };
+		861E03362A1397DE00B36836 /* WelcomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomPage.swift; sourceTree = "<group>"; };
+		861E03382A1397E000B36836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		861E033B2A1397E000B36836 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		861E03422A13A03300B36836 /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; };
+		861E03442A13B68900B36836 /* EmailAddres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAddres.swift; sourceTree = "<group>"; };
+		861E03462A13B6BA00B36836 /* CreateAcount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAcount.swift; sourceTree = "<group>"; };
+		861E03482A13B6EC00B36836 /* EnabalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnabalNotification.swift; sourceTree = "<group>"; };
+		861E034A2A13B71600B36836 /* ChosseRagion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosseRagion.swift; sourceTree = "<group>"; };
+		861E034C2A13B73100B36836 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		861E034E2A13B76E00B36836 /* Terms&Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terms&Condition.swift"; sourceTree = "<group>"; };
+		861E03502A13B7B200B36836 /* PrivacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicy.swift; sourceTree = "<group>"; };
+		861E03522A13BA2000B36836 /* NotificationFromHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFromHome.swift; sourceTree = "<group>"; };
+		861E03542A13BA4700B36836 /* Nofitications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nofitications.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		861E032E2A1397DE00B36836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		861E03282A1397DE00B36836 = {
+			isa = PBXGroup;
+			children = (
+				861E03332A1397DE00B36836 /* KAYAKApp */,
+				861E03322A1397DE00B36836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		861E03322A1397DE00B36836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				861E03312A1397DE00B36836 /* KAYAKApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		861E03332A1397DE00B36836 /* KAYAKApp */ = {
+			isa = PBXGroup;
+			children = (
+				861E03342A1397DE00B36836 /* KAYAKAppApp.swift */,
+				861E03362A1397DE00B36836 /* WelcomPage.swift */,
+				861E03422A13A03300B36836 /* SignInPage.swift */,
+				861E03442A13B68900B36836 /* EmailAddres.swift */,
+				861E03462A13B6BA00B36836 /* CreateAcount.swift */,
+				861E03482A13B6EC00B36836 /* EnabalNotification.swift */,
+				861E034A2A13B71600B36836 /* ChosseRagion.swift */,
+				861E034E2A13B76E00B36836 /* Terms&Condition.swift */,
+				861E03502A13B7B200B36836 /* PrivacyPolicy.swift */,
+				861E034C2A13B73100B36836 /* HomePage.swift */,
+				861E03522A13BA2000B36836 /* NotificationFromHome.swift */,
+				861E03542A13BA4700B36836 /* Nofitications.swift */,
+				861E03382A1397E000B36836 /* Assets.xcassets */,
+				861E033A2A1397E000B36836 /* Preview Content */,
+			);
+			path = KAYAKApp;
+			sourceTree = "<group>";
+		};
+		861E033A2A1397E000B36836 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				861E033B2A1397E000B36836 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		861E03302A1397DE00B36836 /* KAYAKApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861E033F2A1397E000B36836 /* Build configuration list for PBXNativeTarget "KAYAKApp" */;
+			buildPhases = (
+				861E032D2A1397DE00B36836 /* Sources */,
+				861E032E2A1397DE00B36836 /* Frameworks */,
+				861E032F2A1397DE00B36836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAYAKApp;
+			productName = KAYAKApp;
+			productReference = 861E03312A1397DE00B36836 /* KAYAKApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		861E03292A1397DE00B36836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					861E03302A1397DE00B36836 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 861E032C2A1397DE00B36836 /* Build configuration list for PBXProject "KAYAKApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 861E03282A1397DE00B36836;
+			productRefGroup = 861E03322A1397DE00B36836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				861E03302A1397DE00B36836 /* KAYAKApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		861E032F2A1397DE00B36836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861E033C2A1397E000B36836 /* Preview Assets.xcassets in Resources */,
+				861E03392A1397E000B36836 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		861E032D2A1397DE00B36836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861E03512A13B7B200B36836 /* PrivacyPolicy.swift in Sources */,
+				861E03372A1397DE00B36836 /* WelcomPage.swift in Sources */,
+				861E034F2A13B76E00B36836 /* Terms&Condition.swift in Sources */,
+				861E03352A1397DE00B36836 /* KAYAKAppApp.swift in Sources */,
+				861E03552A13BA4700B36836 /* Nofitications.swift in Sources */,
+				861E03532A13BA2000B36836 /* NotificationFromHome.swift in Sources */,
+				861E03432A13A03300B36836 /* SignInPage.swift in Sources */,
+				861E03492A13B6EC00B36836 /* EnabalNotification.swift in Sources */,
+				861E034B2A13B71600B36836 /* ChosseRagion.swift in Sources */,
+				861E03452A13B68900B36836 /* EmailAddres.swift in Sources */,
+				861E03472A13B6BA00B36836 /* CreateAcount.swift in Sources */,
+				861E034D2A13B73100B36836 /* HomePage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		861E033D2A1397E000B36836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		861E033E2A1397E000B36836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		861E03402A1397E000B36836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KAYAKApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khloud.KAYAKApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		861E03412A1397E000B36836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KAYAKApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khloud.KAYAKApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		861E032C2A1397DE00B36836 /* Build configuration list for PBXProject "KAYAKApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861E033D2A1397E000B36836 /* Debug */,
+				861E033E2A1397E000B36836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		861E033F2A1397E000B36836 /* Build configuration list for PBXNativeTarget "KAYAKApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861E03402A1397E000B36836 /* Debug */,
+				861E03412A1397E000B36836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 861E03292A1397DE00B36836 /* Project object */;
+}
